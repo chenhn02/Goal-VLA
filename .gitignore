@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+*.egg
+
+.vscode/
+.DS_Store
+
+# Model weights (download separately, see README)
+checkpoints/*.pth
+checkpoints/*.PTH
+checkpoints/*.pt
+!checkpoints/.gitkeep
+
+# Virtual environment
+.venv/
+
+# Outputs
+outputs/
+*.pkl
+*.npy
+
+# Third-party build artifacts
+third_party/ODISE/odise/model_zoo/configs
+
+# Logs
+*.log
+wandb/
+/test_data
